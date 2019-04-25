@@ -33,7 +33,7 @@
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                                 <span class="clear">
                                <span class="block m-t-xs"><strong class="font-bold">${user_account}</strong></span>
-                                <span class="text-muted text-xs block">${user_name}<b class="caret"></b></span>
+                                <span class="text-muted text-xs block">${user_name}</span>
                                 </span>
                         </a>
                     </div>
@@ -41,7 +41,7 @@
                     </div>
                 </li>
                 <li>
-                <li><a class="J_menuItem" href="${ctx}/view/back/addcard.jsp"><i class="fa fa-columns"></i>主页</a></li>
+                <li><a href="${ctx}/view/front/index_front.jsp" target="_blank"><i class="fa fa-columns"></i>前台主页</a></li>
                 </li>
                 <li>
                     <a href="#">
@@ -69,7 +69,7 @@
                     </a>
                     <ul class="nav nav-second-level">
                         <li>
-                            <a class="J_menuItem" href="graph_echarts.html">新增卡片</a>
+                            <a class="J_menuItem" href="${ctx}/view/back/addcard.jsp">新增卡片</a>
                         </li>
                         <li>
                             <a class="J_menuItem" href="graph_echarts.html">卡片列表</a>

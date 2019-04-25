@@ -202,3 +202,47 @@
 执行方法:com.study.index.dao.UserMapper.getByAccount
 执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
 执行sql时间:3ms
+0    INFO  2019-04-25 18:34:31 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:24) - path-----E:\idea_projects\study_card_index\src\main\webapp\WEB-INF
+1    INFO  2019-04-25 18:34:31 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:25) - ----------初始化LOG日志成功------------------
+2372 INFO  2019-04-25 18:34:33 com.study.common.filter.InitServlet.init(InitServlet.java:41) - ----------初始化ApplicationContext开始------------------
+2373 INFO  2019-04-25 18:34:33 com.study.common.filter.InitServlet.init(InitServlet.java:43) - ----------初始化ApplicationContext完成------------------
+2373 INFO  2019-04-25 18:34:33 com.study.common.filter.InitServlet.init(InitServlet.java:44) - ----------初始化缓存Redis完成------------------
+2373 INFO  2019-04-25 18:34:33 com.study.common.filter.InitServlet.init(InitServlet.java:45) - ----------初始化慧营销WEB服务器启动完成------------------
+43411 DEBUG 2019-04-25 18:35:14 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:68ms
+43416 DEBUG 2019-04-25 18:35:14 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:2ms
+0    INFO  2019-04-25 18:39:46 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:24) - path-----E:\idea_projects\study_card_index\src\main\webapp\WEB-INF
+2    INFO  2019-04-25 18:39:46 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:25) - ----------初始化LOG日志成功------------------
+1738 INFO  2019-04-25 18:39:48 com.study.common.filter.InitServlet.init(InitServlet.java:41) - ----------初始化ApplicationContext开始------------------
+1738 INFO  2019-04-25 18:39:48 com.study.common.filter.InitServlet.init(InitServlet.java:43) - ----------初始化ApplicationContext完成------------------
+1738 INFO  2019-04-25 18:39:48 com.study.common.filter.InitServlet.init(InitServlet.java:44) - ----------初始化缓存Redis完成------------------
+1738 INFO  2019-04-25 18:39:48 com.study.common.filter.InitServlet.init(InitServlet.java:45) - ----------初始化慧营销WEB服务器启动完成------------------
+10488 DEBUG 2019-04-25 18:39:57 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:42ms
+10494 DEBUG 2019-04-25 18:39:57 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:3ms
+1261270 DEBUG 2019-04-25 19:00:48 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:7ms
+1261275 DEBUG 2019-04-25 19:00:48 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:3ms
+3135669 DEBUG 2019-04-25 19:32:02 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:5ms
+3135672 DEBUG 2019-04-25 19:32:02 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:2ms

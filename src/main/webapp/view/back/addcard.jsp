@@ -17,9 +17,52 @@
                     <form method="get" class="form-horizontal">
                         <div class="hr-line-dashed"></div>
                         <div class="form-group">
-                            <label class="col-sm-2 control-label">卡片标题</label>
+                            <label class="col-sm-2 control-label">卡片标题：</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control"> <span class="help-block m-b-none">帮助文本，可能会超过一行，以块级元素显示</span>
+                                <input type="text" class="form-control"> <span class="help-block m-b-none">卡片的概括</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">提问：</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control"> <span class="help-block m-b-none">用于自我测试</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">情景：</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control"> <span class="help-block m-b-none">帮助建立神经关联</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2  control-label">卡片内容：</label>
+                            <div class="col-sm-8">
+                                <textarea id="ccomment" name="comment" class="form-control" required="" aria-required="true"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">卡片类型：</label>
+                            <div class="col-sm-10">
+                                <select class="form-control m-b" name="account">
+                                    <option>源头卡</option>
+                                    <option>启蒙卡</option>
+                                    <option>领悟卡</option>
+                                    <option>金句卡</option>
+                                    <option>概念卡</option>
+                                    <option>反常识卡</option>
+                                    <option>人民卡</option>
+                                </select>
+                                <div class="col-sm-4 m-l-n">
+                                    <select class="form-control" multiple="">
+                                        <option>源头卡</option>
+                                        <option>启蒙卡</option>
+                                        <option>领悟卡</option>
+                                        <option>金句卡</option>
+                                        <option>概念卡</option>
+                                        <option>反常识卡</option>
+                                        <option>人民卡</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class="hr-line-dashed"></div>
