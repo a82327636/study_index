@@ -1,0 +1,204 @@
+0    INFO  2019-04-22 15:43:40 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:24) - path-----E:\idea_projects\study_card_index\src\main\webapp\WEB-INF
+2    INFO  2019-04-22 15:43:40 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:25) - ----------初始化LOG日志成功------------------
+1269 INFO  2019-04-22 15:43:41 com.study.common.filter.InitServlet.init(InitServlet.java:41) - ----------初始化ApplicationContext开始------------------
+1269 INFO  2019-04-22 15:43:41 com.study.common.filter.InitServlet.init(InitServlet.java:43) - ----------初始化ApplicationContext完成------------------
+1270 INFO  2019-04-22 15:43:41 com.study.common.filter.InitServlet.init(InitServlet.java:44) - ----------初始化缓存Redis完成------------------
+1270 INFO  2019-04-22 15:43:41 com.study.common.filter.InitServlet.init(InitServlet.java:45) - ----------初始化慧营销WEB服务器启动完成------------------
+0    INFO  2019-04-22 15:44:27 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:24) - path-----E:\idea_projects\study_card_index\src\main\webapp\WEB-INF
+2    INFO  2019-04-22 15:44:27 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:25) - ----------初始化LOG日志成功------------------
+1615 INFO  2019-04-22 15:44:29 com.study.common.filter.InitServlet.init(InitServlet.java:41) - ----------初始化ApplicationContext开始------------------
+1615 INFO  2019-04-22 15:44:29 com.study.common.filter.InitServlet.init(InitServlet.java:43) - ----------初始化ApplicationContext完成------------------
+1616 INFO  2019-04-22 15:44:29 com.study.common.filter.InitServlet.init(InitServlet.java:44) - ----------初始化缓存Redis完成------------------
+1616 INFO  2019-04-22 15:44:29 com.study.common.filter.InitServlet.init(InitServlet.java:45) - ----------初始化慧营销WEB服务器启动完成------------------
+0    INFO  2019-04-22 15:50:28 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:24) - path-----E:\idea_projects\study_card_index\src\main\webapp\WEB-INF
+2    INFO  2019-04-22 15:50:28 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:25) - ----------初始化LOG日志成功------------------
+1639 INFO  2019-04-22 15:50:30 com.study.common.filter.InitServlet.init(InitServlet.java:41) - ----------初始化ApplicationContext开始------------------
+1640 INFO  2019-04-22 15:50:30 com.study.common.filter.InitServlet.init(InitServlet.java:43) - ----------初始化ApplicationContext完成------------------
+1640 INFO  2019-04-22 15:50:30 com.study.common.filter.InitServlet.init(InitServlet.java:44) - ----------初始化缓存Redis完成------------------
+1640 INFO  2019-04-22 15:50:30 com.study.common.filter.InitServlet.init(InitServlet.java:45) - ----------初始化慧营销WEB服务器启动完成------------------
+0    INFO  2019-04-22 16:01:31 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:24) - path-----E:\idea_projects\study_card_index\src\main\webapp\WEB-INF
+2    INFO  2019-04-22 16:01:31 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:25) - ----------初始化LOG日志成功------------------
+1627 INFO  2019-04-22 16:01:33 com.study.common.filter.InitServlet.init(InitServlet.java:41) - ----------初始化ApplicationContext开始------------------
+1628 INFO  2019-04-22 16:01:33 com.study.common.filter.InitServlet.init(InitServlet.java:43) - ----------初始化ApplicationContext完成------------------
+1628 INFO  2019-04-22 16:01:33 com.study.common.filter.InitServlet.init(InitServlet.java:44) - ----------初始化缓存Redis完成------------------
+1628 INFO  2019-04-22 16:01:33 com.study.common.filter.InitServlet.init(InitServlet.java:45) - ----------初始化慧营销WEB服务器启动完成------------------
+106144 DEBUG 2019-04-22 16:03:18 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:78ms
+0    INFO  2019-04-22 16:11:08 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:24) - path-----E:\idea_projects\study_card_index\src\main\webapp\WEB-INF
+2    INFO  2019-04-22 16:11:08 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:25) - ----------初始化LOG日志成功------------------
+1779 INFO  2019-04-22 16:11:10 com.study.common.filter.InitServlet.init(InitServlet.java:41) - ----------初始化ApplicationContext开始------------------
+1780 INFO  2019-04-22 16:11:10 com.study.common.filter.InitServlet.init(InitServlet.java:43) - ----------初始化ApplicationContext完成------------------
+1780 INFO  2019-04-22 16:11:10 com.study.common.filter.InitServlet.init(InitServlet.java:44) - ----------初始化缓存Redis完成------------------
+1780 INFO  2019-04-22 16:11:10 com.study.common.filter.InitServlet.init(InitServlet.java:45) - ----------初始化慧营销WEB服务器启动完成------------------
+19212 DEBUG 2019-04-22 16:11:27 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:79ms
+0    INFO  2019-04-22 16:15:42 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:24) - path-----E:\idea_projects\study_card_index\src\main\webapp\WEB-INF
+4    INFO  2019-04-22 16:15:42 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:25) - ----------初始化LOG日志成功------------------
+2094 INFO  2019-04-22 16:15:44 com.study.common.filter.InitServlet.init(InitServlet.java:41) - ----------初始化ApplicationContext开始------------------
+2095 INFO  2019-04-22 16:15:44 com.study.common.filter.InitServlet.init(InitServlet.java:43) - ----------初始化ApplicationContext完成------------------
+2095 INFO  2019-04-22 16:15:44 com.study.common.filter.InitServlet.init(InitServlet.java:44) - ----------初始化缓存Redis完成------------------
+2095 INFO  2019-04-22 16:15:44 com.study.common.filter.InitServlet.init(InitServlet.java:45) - ----------初始化慧营销WEB服务器启动完成------------------
+24548 DEBUG 2019-04-22 16:16:06 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:79ms
+30686 DEBUG 2019-04-22 16:16:12 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:7ms
+0    INFO  2019-04-22 16:27:47 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:24) - path-----E:\idea_projects\study_card_index\src\main\webapp\WEB-INF
+2    INFO  2019-04-22 16:27:47 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:25) - ----------初始化LOG日志成功------------------
+1697 INFO  2019-04-22 16:27:48 com.study.common.filter.InitServlet.init(InitServlet.java:41) - ----------初始化ApplicationContext开始------------------
+1698 INFO  2019-04-22 16:27:48 com.study.common.filter.InitServlet.init(InitServlet.java:43) - ----------初始化ApplicationContext完成------------------
+1698 INFO  2019-04-22 16:27:48 com.study.common.filter.InitServlet.init(InitServlet.java:44) - ----------初始化缓存Redis完成------------------
+1698 INFO  2019-04-22 16:27:48 com.study.common.filter.InitServlet.init(InitServlet.java:45) - ----------初始化慧营销WEB服务器启动完成------------------
+1613936 DEBUG 2019-04-22 16:54:41 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:50ms
+1617254 DEBUG 2019-04-22 16:54:44 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:3ms
+0    INFO  2019-04-22 16:56:42 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:24) - path-----E:\idea_projects\study_card_index\src\main\webapp\WEB-INF
+2    INFO  2019-04-22 16:56:42 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:25) - ----------初始化LOG日志成功------------------
+1544 INFO  2019-04-22 16:56:44 com.study.common.filter.InitServlet.init(InitServlet.java:41) - ----------初始化ApplicationContext开始------------------
+1545 INFO  2019-04-22 16:56:44 com.study.common.filter.InitServlet.init(InitServlet.java:43) - ----------初始化ApplicationContext完成------------------
+1545 INFO  2019-04-22 16:56:44 com.study.common.filter.InitServlet.init(InitServlet.java:44) - ----------初始化缓存Redis完成------------------
+1545 INFO  2019-04-22 16:56:44 com.study.common.filter.InitServlet.init(InitServlet.java:45) - ----------初始化慧营销WEB服务器启动完成------------------
+0    INFO  2019-04-22 16:58:04 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:24) - path-----E:\idea_projects\study_card_index\src\main\webapp\WEB-INF
+2    INFO  2019-04-22 16:58:04 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:25) - ----------初始化LOG日志成功------------------
+1474 INFO  2019-04-22 16:58:05 com.study.common.filter.InitServlet.init(InitServlet.java:41) - ----------初始化ApplicationContext开始------------------
+1475 INFO  2019-04-22 16:58:05 com.study.common.filter.InitServlet.init(InitServlet.java:43) - ----------初始化ApplicationContext完成------------------
+1475 INFO  2019-04-22 16:58:05 com.study.common.filter.InitServlet.init(InitServlet.java:44) - ----------初始化缓存Redis完成------------------
+1475 INFO  2019-04-22 16:58:05 com.study.common.filter.InitServlet.init(InitServlet.java:45) - ----------初始化慧营销WEB服务器启动完成------------------
+61279 DEBUG 2019-04-22 16:59:05 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:36ms
+61285 DEBUG 2019-04-22 16:59:05 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:3ms
+0    INFO  2019-04-24 17:15:22 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:24) - path-----E:\idea_projects\study_card_index\src\main\webapp\WEB-INF
+21   INFO  2019-04-24 17:15:22 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:25) - ----------初始化LOG日志成功------------------
+2564 INFO  2019-04-24 17:15:25 com.study.common.filter.InitServlet.init(InitServlet.java:41) - ----------初始化ApplicationContext开始------------------
+2565 INFO  2019-04-24 17:15:25 com.study.common.filter.InitServlet.init(InitServlet.java:43) - ----------初始化ApplicationContext完成------------------
+2565 INFO  2019-04-24 17:15:25 com.study.common.filter.InitServlet.init(InitServlet.java:44) - ----------初始化缓存Redis完成------------------
+2565 INFO  2019-04-24 17:15:25 com.study.common.filter.InitServlet.init(InitServlet.java:45) - ----------初始化慧营销WEB服务器启动完成------------------
+0    INFO  2019-04-24 17:33:42 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:24) - path-----E:\idea_projects\study_card_index\src\main\webapp\WEB-INF
+2    INFO  2019-04-24 17:33:42 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:25) - ----------初始化LOG日志成功------------------
+1559 INFO  2019-04-24 17:33:44 com.study.common.filter.InitServlet.init(InitServlet.java:41) - ----------初始化ApplicationContext开始------------------
+1560 INFO  2019-04-24 17:33:44 com.study.common.filter.InitServlet.init(InitServlet.java:43) - ----------初始化ApplicationContext完成------------------
+1560 INFO  2019-04-24 17:33:44 com.study.common.filter.InitServlet.init(InitServlet.java:44) - ----------初始化缓存Redis完成------------------
+1560 INFO  2019-04-24 17:33:44 com.study.common.filter.InitServlet.init(InitServlet.java:45) - ----------初始化慧营销WEB服务器启动完成------------------
+0    INFO  2019-04-24 17:44:45 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:24) - path-----E:\idea_projects\study_card_index\src\main\webapp\WEB-INF
+2    INFO  2019-04-24 17:44:45 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:25) - ----------初始化LOG日志成功------------------
+1648 INFO  2019-04-24 17:44:47 com.study.common.filter.InitServlet.init(InitServlet.java:41) - ----------初始化ApplicationContext开始------------------
+1649 INFO  2019-04-24 17:44:47 com.study.common.filter.InitServlet.init(InitServlet.java:43) - ----------初始化ApplicationContext完成------------------
+1649 INFO  2019-04-24 17:44:47 com.study.common.filter.InitServlet.init(InitServlet.java:44) - ----------初始化缓存Redis完成------------------
+1649 INFO  2019-04-24 17:44:47 com.study.common.filter.InitServlet.init(InitServlet.java:45) - ----------初始化慧营销WEB服务器启动完成------------------
+153431 DEBUG 2019-04-24 17:47:19 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:38ms
+153466 DEBUG 2019-04-24 17:47:19 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:3ms
+677643 DEBUG 2019-04-24 17:56:03 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:7ms
+677649 DEBUG 2019-04-24 17:56:03 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:5ms
+0    INFO  2019-04-25 14:08:33 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:24) - path-----E:\idea_projects\study_card_index\src\main\webapp\WEB-INF
+3    INFO  2019-04-25 14:08:33 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:25) - ----------初始化LOG日志成功------------------
+2739 INFO  2019-04-25 14:08:36 com.study.common.filter.InitServlet.init(InitServlet.java:41) - ----------初始化ApplicationContext开始------------------
+2739 INFO  2019-04-25 14:08:36 com.study.common.filter.InitServlet.init(InitServlet.java:43) - ----------初始化ApplicationContext完成------------------
+2739 INFO  2019-04-25 14:08:36 com.study.common.filter.InitServlet.init(InitServlet.java:44) - ----------初始化缓存Redis完成------------------
+2739 INFO  2019-04-25 14:08:36 com.study.common.filter.InitServlet.init(InitServlet.java:45) - ----------初始化慧营销WEB服务器启动完成------------------
+17004 DEBUG 2019-04-25 14:08:50 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:71ms
+17010 DEBUG 2019-04-25 14:08:50 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:2ms
+0    INFO  2019-04-25 14:12:34 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:24) - path-----E:\idea_projects\study_card_index\src\main\webapp\WEB-INF
+4    INFO  2019-04-25 14:12:34 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:25) - ----------初始化LOG日志成功------------------
+1729 INFO  2019-04-25 14:12:36 com.study.common.filter.InitServlet.init(InitServlet.java:41) - ----------初始化ApplicationContext开始------------------
+1729 INFO  2019-04-25 14:12:36 com.study.common.filter.InitServlet.init(InitServlet.java:43) - ----------初始化ApplicationContext完成------------------
+1730 INFO  2019-04-25 14:12:36 com.study.common.filter.InitServlet.init(InitServlet.java:44) - ----------初始化缓存Redis完成------------------
+1730 INFO  2019-04-25 14:12:36 com.study.common.filter.InitServlet.init(InitServlet.java:45) - ----------初始化慧营销WEB服务器启动完成------------------
+51203 DEBUG 2019-04-25 14:13:25 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:43ms
+51211 DEBUG 2019-04-25 14:13:25 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:5ms
+0    INFO  2019-04-25 15:05:23 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:24) - path-----E:\idea_projects\study_card_index\src\main\webapp\WEB-INF
+1    INFO  2019-04-25 15:05:23 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:25) - ----------初始化LOG日志成功------------------
+1578 INFO  2019-04-25 15:05:24 com.study.common.filter.InitServlet.init(InitServlet.java:41) - ----------初始化ApplicationContext开始------------------
+1579 INFO  2019-04-25 15:05:24 com.study.common.filter.InitServlet.init(InitServlet.java:43) - ----------初始化ApplicationContext完成------------------
+1579 INFO  2019-04-25 15:05:24 com.study.common.filter.InitServlet.init(InitServlet.java:44) - ----------初始化缓存Redis完成------------------
+1579 INFO  2019-04-25 15:05:24 com.study.common.filter.InitServlet.init(InitServlet.java:45) - ----------初始化慧营销WEB服务器启动完成------------------
+28937 DEBUG 2019-04-25 15:05:52 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:46ms
+28949 DEBUG 2019-04-25 15:05:52 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:3ms
+0    INFO  2019-04-25 15:37:00 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:24) - path-----E:\idea_projects\study_card_index\src\main\webapp\WEB-INF
+2    INFO  2019-04-25 15:37:00 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:25) - ----------初始化LOG日志成功------------------
+1638 INFO  2019-04-25 15:37:01 com.study.common.filter.InitServlet.init(InitServlet.java:41) - ----------初始化ApplicationContext开始------------------
+1639 INFO  2019-04-25 15:37:01 com.study.common.filter.InitServlet.init(InitServlet.java:43) - ----------初始化ApplicationContext完成------------------
+1639 INFO  2019-04-25 15:37:01 com.study.common.filter.InitServlet.init(InitServlet.java:44) - ----------初始化缓存Redis完成------------------
+1639 INFO  2019-04-25 15:37:01 com.study.common.filter.InitServlet.init(InitServlet.java:45) - ----------初始化慧营销WEB服务器启动完成------------------
+56444 DEBUG 2019-04-25 15:37:56 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:46ms
+56452 DEBUG 2019-04-25 15:37:56 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:3ms
+0    INFO  2019-04-25 16:35:19 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:24) - path-----E:\idea_projects\study_card_index\src\main\webapp\WEB-INF
+3    INFO  2019-04-25 16:35:19 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:25) - ----------初始化LOG日志成功------------------
+3931 INFO  2019-04-25 16:35:23 com.study.common.filter.InitServlet.init(InitServlet.java:41) - ----------初始化ApplicationContext开始------------------
+3932 INFO  2019-04-25 16:35:23 com.study.common.filter.InitServlet.init(InitServlet.java:43) - ----------初始化ApplicationContext完成------------------
+3932 INFO  2019-04-25 16:35:23 com.study.common.filter.InitServlet.init(InitServlet.java:44) - ----------初始化缓存Redis完成------------------
+3932 INFO  2019-04-25 16:35:23 com.study.common.filter.InitServlet.init(InitServlet.java:45) - ----------初始化慧营销WEB服务器启动完成------------------
+35256 DEBUG 2019-04-25 16:35:55 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:38ms
+35262 DEBUG 2019-04-25 16:35:55 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:3ms
+0    INFO  2019-04-25 17:01:22 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:24) - path-----E:\idea_projects\study_card_index\src\main\webapp\WEB-INF
+2    INFO  2019-04-25 17:01:22 com.study.common.filter.Log4JConfig.contextInitialized(Log4JConfig.java:25) - ----------初始化LOG日志成功------------------
+1823 INFO  2019-04-25 17:01:24 com.study.common.filter.InitServlet.init(InitServlet.java:41) - ----------初始化ApplicationContext开始------------------
+1823 INFO  2019-04-25 17:01:24 com.study.common.filter.InitServlet.init(InitServlet.java:43) - ----------初始化ApplicationContext完成------------------
+1824 INFO  2019-04-25 17:01:24 com.study.common.filter.InitServlet.init(InitServlet.java:44) - ----------初始化缓存Redis完成------------------
+1824 INFO  2019-04-25 17:01:24 com.study.common.filter.InitServlet.init(InitServlet.java:45) - ----------初始化慧营销WEB服务器启动完成------------------
+6516 DEBUG 2019-04-25 17:01:29 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:47ms
+6522 DEBUG 2019-04-25 17:01:29 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:3ms

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans.xsd"
+       default-lazy-init="false">
+
+    <!-- 继承自AuthorizingRealm的自定义Realm,即指定Shiro验证用户登录的类为自定义 -->
+    <bean id="shiroUserRealm" class="com.study.common.shiro.ShiroUserRealm"/>
+
+    <!-- 这里主要是设置自定义的单Realm应用,若有多个Realm,可使用'realms'属性代替 -->
+    <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+        <property name="realm" ref="shiroUserRealm"/>
+        <!-- sessionManager -->
+        <property name="sessionManager" ref="sessionManager"/>
+    </bean>
+    <!-- 自定义redisManager-redis -->
+    <!-- sessionManager -->
+    <bean id="sessionManager"
+          class="org.apache.shiro.web.session.mgt.ServletContainerSessionManager"/>
+    <!-- Shiro主过滤器本身功能十分强大,其强大之处就在于它支持任何基于URL路径表达式的、自定义的过滤器的执行 -->
+    <!-- Web应用中,Shiro可控制的Web请求必须经过Shiro主过滤器的拦截,Shiro对基于Spring的Web应用提供了完美的支持 -->
+    <bean id="shiroFilter" class="com.study.common.shiro.MyShiroFilterFactoryBean">
+        <!-- Shiro的核心安全接口,这个属性是必须的 -->
+        <property name="securityManager" ref="securityManager"/>
+        <!-- 要求登录时的链接(可根据项目的URL进行替换),非必须的属性,默认会自动寻找Web工程根目录下的"/login.jsp"页面 -->
+        <property name="loginUrl" value="/login"/>
+        <!-- 登陆成功后跳转的url -->
+        <property name="successUrl" value="/"/>
+        <!-- 用户访问未对其授权的资源时,所显示的连接 -->
+        <!-- 若想更明显的测试此属性可以修改它的值,如unauthor.jsp,然后用[玄玉]登录后访问/admin/listUser.jsp就看见浏览器会显示unauthor.jsp -->
+        <!-- 没有权限跳转的url -->
+        <property name="unauthorizedUrl" value="/common/unauth.jsp"/>
+        <!-- 访问地址的过滤规则,从上至下的优先级,如果有匹配的规则,就会返回,不会再进行匹配 -->
+        <property name="filterChainDefinitions">
+            <value>
+                /login=anon
+                /static/** = anon
+                /view/** = anon
+                / = authc
+                /** = authc
+            </value>
+        </property>
+    </bean>
+    <!-- 起效权限注解,这个很少在web项目中用到,一般是控制url的访问,不是在controller中声明权限注解 -->
+    <bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor"/>
+
+</beans>

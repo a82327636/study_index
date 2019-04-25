@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="
+http://www.springframework.org/schema/beans 
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+">
+    <import resource="applicationContext-datasource.xml"/>
+   <!-- ========================================针对myBatis的配置项============================== -->
+    <!-- 配置sqlSessionFactory -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!-- 实例化sqlSessionFactory时需要使用上述配置好的数据源以及SQL映射文件 -->
+        <property name="dataSource" ref="dataSource"/>
+        <property name="plugins">
+            <array>
+                <bean class="com.study.common.interceptor.PagePlugin">
+                    <property name="dialect" value="mysql"/>
+                    <property name="pageSqlId" value=".*ListPage.*"/>
+                </bean>
+                <bean class="com.study.common.interceptor.LogTimeInterceptor"/>
+            </array>
+        </property>
+    </bean>
+    <!-- 配置扫描器 -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!-- 扫描包以及它的子包下的所有映射接口类 -->
+        <property name="basePackage" value="com.study"/>
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+
+    </bean>
+
+
+
+</beans>

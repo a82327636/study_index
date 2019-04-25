@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:context="http://www.springframework.org/schema/context"
+	   xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans.xsd 
+
+
+		http://www.springframework.org/schema/context 
+		http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/aop
+		http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd"
+	   default-lazy-init="false">
+
+	<bean id="stat-filter" class="com.alibaba.druid.filter.stat.StatFilter">
+		<property name="slowSqlMillis" value="3000" />
+		<property name="logSlowSql" value="true" />
+	</bean>
+
+	<!-- ========================================分隔线========================================= -->
+
+	<!--  nativeJdbcExtractor、jdbcTemplate 这里主要是针对jdbc 获取 druid 数据源用以链接数据库存储过程-->
+	<bean id="nativeJdbcExtractor" class="com.alibaba.druid.support.spring.DruidNativeJdbcExtractor"
+		  lazy-init="true">
+	</bean>
+	<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="dataSource" />
+		<property name="nativeJdbcExtractor" ref="nativeJdbcExtractor"/>
+	</bean>
+
+	<!-- 配置jdbcCall 用于调用存储过程和数据库函数 ,不要使用单例模式!!!!!! -->
+	<bean id="jdbcCall" scope="prototype"
+		class="org.springframework.jdbc.core.simple.SimpleJdbcCall">
+		<constructor-arg ref="dataSource" />
+	</bean>
+<!-- 以下是配置数据源-->
+	<aop:aspectj-autoproxy/>
+	<!-- enable component scanning (beware that this does not enable mapper scanning!) -->
+	<context:component-scan base-package="com.study.index"/>
+	<!-- enable autowire -->
+	<context:annotation-config />
+	<bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"/>
+
+	<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
+		  init-method="init" destroy-method="close">
+		<!-- 基本属性 url、user、password -->
+		<property name="url" value="${dataSource.url}" />
+		<property name="username" value="${dataSource.username}" />
+		<property name="password" value="${dataSource.password}" />
+		<property name="connectionProperties" value="${dataSource.driver}"></property>
+
+		<!-- 配置初始化大小、最小、最大 -->
+		<property name="initialSize" value="10" />
+		<property name="minIdle" value="10" />
+		<property name="maxActive" value="1000" />
+
+		<!-- 配置获取连接等待超时的时间 -->
+		<property name="maxWait" value="60000" />
+
+		<!-- 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒 -->
+		<property name="timeBetweenEvictionRunsMillis" value="60000" />
+
+		<!-- 配置一个连接在池中最小生存的时间，单位是毫秒 -->
+		<property name="minEvictableIdleTimeMillis" value="300000" />
+
+		<property name="validationQuery" value="SELECT 'x'" />
+		<property name="testWhileIdle" value="true" />
+		<property name="testOnBorrow" value="false" />
+		<property name="testOnReturn" value="false" />
+		<property name="removeAbandoned" value="true" /> <!-- 打开removeAbandoned功能 -->
+		<property name="removeAbandonedTimeout" value="900" />
+		<!-- 打开PSCache，并且指定每个连接上PSCache的大小 -->
+		<property name="poolPreparedStatements" value="true" />
+		<property name="maxPoolPreparedStatementPerConnectionSize"
+				  value="20" />
+		<!-- 配置监控统计拦截的filters -->
+		<property name="filters" value="stat" />
+	</bean>
+
+</beans>

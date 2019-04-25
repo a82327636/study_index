@@ -1,0 +1,96 @@
+106144 DEBUG 2019-04-22 16:03:18 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:78ms
+19212 DEBUG 2019-04-22 16:11:27 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:79ms
+24548 DEBUG 2019-04-22 16:16:06 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:79ms
+30686 DEBUG 2019-04-22 16:16:12 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:7ms
+1613936 DEBUG 2019-04-22 16:54:41 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:50ms
+1617254 DEBUG 2019-04-22 16:54:44 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:3ms
+61279 DEBUG 2019-04-22 16:59:05 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:36ms
+61285 DEBUG 2019-04-22 16:59:05 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:3ms
+153431 DEBUG 2019-04-24 17:47:19 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:38ms
+153466 DEBUG 2019-04-24 17:47:19 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:3ms
+677643 DEBUG 2019-04-24 17:56:03 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:7ms
+677649 DEBUG 2019-04-24 17:56:03 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:5ms
+17004 DEBUG 2019-04-25 14:08:50 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:71ms
+17010 DEBUG 2019-04-25 14:08:50 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:2ms
+51203 DEBUG 2019-04-25 14:13:25 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:43ms
+51211 DEBUG 2019-04-25 14:13:25 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:5ms
+28937 DEBUG 2019-04-25 15:05:52 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:46ms
+28949 DEBUG 2019-04-25 15:05:52 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:3ms
+56444 DEBUG 2019-04-25 15:37:56 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:46ms
+56452 DEBUG 2019-04-25 15:37:56 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:3ms
+35256 DEBUG 2019-04-25 16:35:55 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:38ms
+35262 DEBUG 2019-04-25 16:35:55 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:3ms
+6516 DEBUG 2019-04-25 17:01:29 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:47ms
+6522 DEBUG 2019-04-25 17:01:29 com.study.common.interceptor.LogTimeInterceptor.intercept(LogTimeInterceptor.java:52) - 
+执行方法:com.study.index.dao.UserMapper.getByAccount
+执行sql语句:select user_id,user_account,user_name,user_phone,user_email,password from auth_user where user_account = 'zwj001'
+执行sql时间:3ms

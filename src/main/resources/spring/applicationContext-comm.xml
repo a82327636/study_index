@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:context="http://www.springframework.org/schema/context"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context.xsd"
+	   default-lazy-init="false">
+
+	<!-- 加载*.properties File -->
+	<bean id="mqResources" class="java.util.ArrayList">
+		<constructor-arg>
+			<list>
+				<value>classpath:properties/db.properties</value>
+				<value>classpath:properties/init.properties</value>
+			</list>
+		</constructor-arg>
+	</bean>
+
+	<!-- 加载*.properties File -->
+	<bean id="dbConfPostProcessor"
+		  class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations" ref="mqResources" />
+	</bean>
+	<bean id="config"
+		  class="org.springframework.beans.factory.config.PropertiesFactoryBean">
+		<property name="locations" ref="mqResources" />
+	</bean>
+
+	<!-- 扫描的包路径 去掉mvc的注解-->
+	<context:component-scan base-package="com.study">
+		<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+	</context:component-scan>
+	<bean id="appContextUtil" class="com.study.common.filter.AppContextUtil"/>
+	<!-- 配置线程池 -->
+	<bean id="taskExecutor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
+		<!-- 线程池维护线程的最少数量 -->
+		<property name="corePoolSize" value="50"/>
+		<!-- 线程池维护线程所允许的空闲时间 -->
+		<property name="keepAliveSeconds" value="30000"/>
+		<!-- 线程池维护线程的最大数量 -->
+		<property name="maxPoolSize" value="50"/>
+		<!-- 线程池所使用的缓冲队列 -->
+		<property name="queueCapacity" value="10000"/>
+	</bean>
+</beans>
